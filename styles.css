@@ -1,0 +1,30 @@
+#navbar-pinterest {
+    background-color: aquamarine;
+}
+
+.finder {
+    width: 80%;
+    height: 25px;
+    background-color: blueviolet;
+}
+
+#notifications {
+    background-color: beige;
+}
+
+#message {
+    background-color: greenyellow;
+}
+
+#profile-img {
+    background-color: burlywood;
+}
+
+#pinterest-icon {
+    background-color: brown;    
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+}
