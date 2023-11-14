@@ -1,30 +1,51 @@
-#navbar-pinterest {
-    background-color: aquamarine;
-}
-
-.finder {
-    width: 80%;
-    height: 25px;
-    background-color: blueviolet;
-}
-
-#notifications {
-    background-color: beige;
-}
-
-#message {
-    background-color: greenyellow;
-}
-
-#profile-img {
-    background-color: burlywood;
-}
-
-#pinterest-icon {
-    background-color: brown;    
-}
-
-.head {
+header {
     display: flex;
     justify-content: space-between;
 }
+
+#pinterest-icon {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.encabezado {
+    display: flex;
+}
+
+.encabezado_2 {
+    margin: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.finder {
+    width: 68%;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 40px;
+}
+
+#navbar-pinterest {
+    display: flex;
+}
+
+#notifications {
+    padding-top: 22px;
+    margin-right: 20px;
+}
+
+#message {
+    padding-top: 15px;  
+    margin-right: 20px;
+}
+
+#profile-img {
+    padding-top: 20px;
+    margin-right: 15px;
+}
+
+.opciones {
+    padding-top: 30px;
+    margin-right: 10px;
+}
+
