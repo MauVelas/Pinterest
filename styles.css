@@ -67,7 +67,9 @@ header {
 }
 
 .text {
-    text-align: center;
+    margin-left: 120px;
+    margin-top: 15px;
+    padding: 10px;
     font-size: 20px;
     color: white;
     position: absolute;
@@ -116,5 +118,23 @@ img {
     }
     #navbar-pinterest {
         display: none;
+    }
+    #content {
+        columns: 2;
+        column-gap: 1em;
+        position: relative;
+    }
+    .text {
+        margin-left: 70px;
+        margin-top: 15px;
+        padding: 10px;
+        font-size: 10px;
+        color: white;
+        position: absolute;
+        background: crimson;
+        border: none;
+        border-radius: 40px;
+        visibility: hidden;
+        cursor: pointer;
     }
 }
