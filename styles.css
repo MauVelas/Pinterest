@@ -23,6 +23,7 @@ header {
     margin-top: 10px;
     border-radius: 40px;
     background-color: gainsboro;
+    border: none;
 }
 
 #navbar-pinterest {
@@ -50,11 +51,12 @@ header {
 }
 
 .text {
+    font-size: 10px;
+    color: white;
     position: absolute;
     background: crimson;
     border-radius: 40px;
     visibility: hidden;
-    text-align: center;
 }
 
 #content {
@@ -67,7 +69,7 @@ img {
     max-width: 100%;
     margin-bottom: 0.8em;
     border-radius: 40px;    
-    display: block;
+    object-fit: cover;
 }
 
 .card-image:hover {
